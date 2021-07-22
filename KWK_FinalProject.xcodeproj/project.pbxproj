@@ -14,6 +14,7 @@
 		B14C9D5526A752B600D0EF98 /* KWK_FinalProject.xcdatamodeld in Sources */ = {isa = PBXBuildFile; fileRef = B14C9D5326A752B600D0EF98 /* KWK_FinalProject.xcdatamodeld */; };
 		B14C9D5726A752B900D0EF98 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = B14C9D5626A752B900D0EF98 /* Assets.xcassets */; };
 		B14C9D5A26A752B900D0EF98 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = B14C9D5826A752B900D0EF98 /* LaunchScreen.storyboard */; };
+		FF2E8F7726A9232700A74BF5 /* InputViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = FF2E8F7626A9232600A74BF5 /* InputViewController.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
@@ -26,6 +27,7 @@
 		B14C9D5626A752B900D0EF98 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
 		B14C9D5926A752B900D0EF98 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
 		B14C9D5B26A752B900D0EF98 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		FF2E8F7626A9232600A74BF5 /* InputViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = InputViewController.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -66,6 +68,7 @@
 				B14C9D5826A752B900D0EF98 /* LaunchScreen.storyboard */,
 				B14C9D5B26A752B900D0EF98 /* Info.plist */,
 				B14C9D5326A752B600D0EF98 /* KWK_FinalProject.xcdatamodeld */,
+				FF2E8F7626A9232600A74BF5 /* InputViewController.swift */,
 			);
 			path = KWK_FinalProject;
 			sourceTree = "<group>";
@@ -141,6 +144,7 @@
 			buildActionMask = 2147483647;
 			files = (
 				B14C9D4F26A752B600D0EF98 /* ViewController.swift in Sources */,
+				FF2E8F7726A9232700A74BF5 /* InputViewController.swift in Sources */,
 				B14C9D4B26A752B600D0EF98 /* AppDelegate.swift in Sources */,
 				B14C9D5526A752B600D0EF98 /* KWK_FinalProject.xcdatamodeld in Sources */,
 				B14C9D4D26A752B600D0EF98 /* SceneDelegate.swift in Sources */,

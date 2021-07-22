@@ -88,10 +88,10 @@
             </objects>
             <point key="canvasLocation" x="893" y="731"/>
         </scene>
-        <!--View Controller-->
+        <!--Input View Controller-->
         <scene sceneID="cZk-Od-73M">
             <objects>
-                <viewController id="6CY-S4-qyz" sceneMemberID="viewController">
+                <viewController id="6CY-S4-qyz" customClass="InputViewController" customModule="KWK_FinalProject" customModuleProvider="target" sceneMemberID="viewController">
                     <view key="view" contentMode="scaleToFill" id="D9X-eB-aB0">
                         <rect key="frame" x="0.0" y="0.0" width="390" height="790"/>
                         <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
@@ -124,6 +124,9 @@
                                 <color key="textColor" red="0.18039215689999999" green="0.28190446590000001" blue="0.85594518939999997" alpha="1" colorSpace="calibratedRGB"/>
                                 <fontDescription key="fontDescription" type="system" pointSize="14"/>
                                 <textInputTraits key="textInputTraits"/>
+                                <connections>
+                                    <action selector="nameInput:" destination="s1W-Vr-kZz" eventType="editingDidEnd" id="axZ-D7-8wP"/>
+                                </connections>
                             </textField>
                             <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" fixedFrame="YES" text="Name:" textAlignment="center" lineBreakMode="tailTruncation" numberOfLines="2" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="9F5-WC-DB0">
                                 <rect key="frame" x="12" y="424" width="76" height="25"/>
@@ -150,8 +153,14 @@
                         <color key="backgroundColor" red="0.79607843140000001" green="0.95294117649999999" blue="0.94117647059999998" alpha="1" colorSpace="calibratedRGB"/>
                     </view>
                     <navigationItem key="navigationItem" id="WDl-8M-yJV"/>
+                    <connections>
+                        <outlet property="collegeInput" destination="W12-gO-sML" id="8sI-TB-Ope"/>
+                        <outlet property="nameInput" destination="QRm-Nl-XV0" id="R1P-zi-9LR"/>
+                        <outlet property="startSurveyBtn" destination="91z-IJ-KIh" id="TQl-fA-v2u"/>
+                    </connections>
                 </viewController>
                 <placeholder placeholderIdentifier="IBFirstResponder" id="wPb-Rn-gSv" userLabel="First Responder" customClass="UIResponder" sceneMemberID="firstResponder"/>
+                <exit id="s1W-Vr-kZz" userLabel="Exit" sceneMemberID="exit"/>
             </objects>
             <point key="canvasLocation" x="892.30769230769226" y="59.004739336492889"/>
         </scene>
@@ -294,7 +303,6 @@
         <!--View Controller-->
         <scene sceneID="5Po-Mk-mWE">
             <objects>
-                <placeholder placeholderIdentifier="IBFirstResponder" id="vZk-Be-liA" sceneMemberID="firstResponder"/>
                 <viewController id="nxA-ot-Gni" customClass="ViewController" customModule="KWK_FinalProject" customModuleProvider="target" sceneMemberID="viewController">
                     <view key="view" contentMode="scaleToFill" id="CDS-KZ-upd">
                         <rect key="frame" x="0.0" y="0.0" width="390" height="790"/>
@@ -351,6 +359,7 @@
                     </view>
                     <navigationItem key="navigationItem" id="n3g-ZC-1aL"/>
                 </viewController>
+                <placeholder placeholderIdentifier="IBFirstResponder" id="vZk-Be-liA" sceneMemberID="firstResponder"/>
             </objects>
             <point key="canvasLocation" x="135.38461538461539" y="59.715639810426538"/>
         </scene>
