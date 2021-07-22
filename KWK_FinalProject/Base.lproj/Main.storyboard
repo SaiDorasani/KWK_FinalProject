@@ -57,10 +57,10 @@
             </objects>
             <point key="canvasLocation" x="-563.07692307692309" y="57.582938388625593"/>
         </scene>
-        <!--View Controller-->
+        <!--Notradame View Controller-->
         <scene sceneID="yLl-rC-W59">
             <objects>
-                <viewController id="ZUo-sn-Tgv" sceneMemberID="viewController">
+                <viewController id="ZUo-sn-Tgv" customClass="notradameViewController" customModule="KWK_FinalProject" customModuleProvider="target" sceneMemberID="viewController">
                     <view key="view" contentMode="scaleToFill" id="DT0-I2-fXe">
                         <rect key="frame" x="0.0" y="0.0" width="390" height="790"/>
                         <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
@@ -202,7 +202,7 @@
                                 <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
                             </imageView>
                             <imageView clipsSubviews="YES" userInteractionEnabled="NO" contentMode="scaleAspectFit" horizontalHuggingPriority="251" verticalHuggingPriority="251" fixedFrame="YES" image="Black_Star.svg" translatesAutoresizingMaskIntoConstraints="NO" id="VwP-J5-HYE">
-                                <rect key="frame" x="157" y="458" width="20" height="23"/>
+                                <rect key="frame" x="157" y="458" width="20" height="21"/>
                                 <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
                             </imageView>
                             <imageView clipsSubviews="YES" userInteractionEnabled="NO" contentMode="scaleAspectFit" horizontalHuggingPriority="251" verticalHuggingPriority="251" fixedFrame="YES" image="Black_Star.svg" translatesAutoresizingMaskIntoConstraints="NO" id="7XH-Ix-fAg">
@@ -249,32 +249,47 @@
                                 <rect key="frame" x="171" y="573" width="20" height="23"/>
                                 <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
                             </imageView>
-                            <imageView clipsSubviews="YES" userInteractionEnabled="NO" contentMode="scaleAspectFit" horizontalHuggingPriority="251" verticalHuggingPriority="251" fixedFrame="YES" image="Black_Star.svg" translatesAutoresizingMaskIntoConstraints="NO" id="2Vv-gw-bst">
-                                <rect key="frame" x="196" y="596" width="20" height="23"/>
-                                <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
-                            </imageView>
-                            <imageView clipsSubviews="YES" userInteractionEnabled="NO" contentMode="scaleAspectFit" horizontalHuggingPriority="251" verticalHuggingPriority="251" fixedFrame="YES" image="Black_Star.svg" translatesAutoresizingMaskIntoConstraints="NO" id="Ku4-Vp-QRO">
-                                <rect key="frame" x="217" y="596" width="20" height="23"/>
-                                <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
-                            </imageView>
-                            <imageView clipsSubviews="YES" userInteractionEnabled="NO" contentMode="scaleAspectFit" horizontalHuggingPriority="251" verticalHuggingPriority="251" fixedFrame="YES" image="Black_Star.svg" translatesAutoresizingMaskIntoConstraints="NO" id="1Vj-Q7-oex">
-                                <rect key="frame" x="240" y="596" width="20" height="23"/>
-                                <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
-                            </imageView>
                         </subviews>
                         <viewLayoutGuide key="safeArea" id="5cz-cw-zA8"/>
                         <color key="backgroundColor" systemColor="systemBackgroundColor"/>
                     </view>
                     <navigationItem key="navigationItem" id="kQV-0u-vA6"/>
+                    <connections>
+                        <outlet property="IDDstar1" destination="DEm-DH-WgF" id="Olq-NU-7DY"/>
+                        <outlet property="IDDstar11" destination="K7P-sS-WE0" id="iNy-W7-kum"/>
+                        <outlet property="IDDstar2" destination="cx3-vk-VCf" id="cCX-3u-Xah"/>
+                        <outlet property="IDDstar22" destination="Rbd-fB-exh" id="eX3-ic-pL0"/>
+                        <outlet property="IDDstar3" destination="xk5-dp-sD6" id="2hV-2C-i5J"/>
+                        <outlet property="IDDstar33" destination="Tpf-aN-SCw" id="sKI-6f-YTm"/>
+                        <outlet property="lgbtqstar1" destination="9jN-4G-t4o" id="2DW-jv-IUZ"/>
+                        <outlet property="lgbtqstar11" destination="kNm-pH-UKi" id="iU2-ZE-Kgk"/>
+                        <outlet property="lgbtqstar2" destination="qXk-oM-kGf" id="5z3-3J-iea"/>
+                        <outlet property="lgbtqstar22" destination="mDz-TF-Urh" id="OID-T8-0iC"/>
+                        <outlet property="lgbtqstar3" destination="Cxf-Zq-qiT" id="M2h-AL-GTz"/>
+                        <outlet property="lgbtqstar33" destination="3LK-wo-7GB" id="Qja-Q3-Joj"/>
+                        <outlet property="mentalhealthstar1" destination="zdq-Sw-fWB" id="7Gd-g5-fGL"/>
+                        <outlet property="mentalhealthstar11" destination="VwP-J5-HYE" id="Y9a-2L-e7K"/>
+                        <outlet property="mentalhealthstar2" destination="YwB-a1-02q" id="bqL-zz-DbJ"/>
+                        <outlet property="mentalhealthstar22" destination="7XH-Ix-fAg" id="Vld-LK-0X0"/>
+                        <outlet property="mentalhealthstar3" destination="17v-rx-cXC" id="9Jb-lw-1kx"/>
+                        <outlet property="mentalhealthstar33" destination="Max-kX-3R8" id="d9Y-cS-PVz"/>
+                        <outlet property="minorities" destination="Xsr-5j-eAx" id="8RJ-Zr-ur9"/>
+                        <outlet property="minoritiesstar1" destination="Xsr-5j-eAx" id="chi-VF-ExY"/>
+                        <outlet property="minoritiesstar11" destination="chw-IY-fUN" id="K7e-jk-20V"/>
+                        <outlet property="minoritiesstar2" destination="nBo-tV-9Ym" id="F5z-77-s3D"/>
+                        <outlet property="minoritiesstar22" destination="oJW-6k-XNd" id="uGM-QL-17j"/>
+                        <outlet property="minoritiesstar3" destination="Adt-az-xIw" id="Ium-bI-Oah"/>
+                        <outlet property="minoritiesstar33" destination="fQu-9s-RjY" id="Nas-WH-4EQ"/>
+                    </connections>
                 </viewController>
                 <placeholder placeholderIdentifier="IBFirstResponder" id="FJd-eS-1qe" userLabel="First Responder" customClass="UIResponder" sceneMemberID="firstResponder"/>
             </objects>
             <point key="canvasLocation" x="-603.07692307692309" y="730.80568720379142"/>
         </scene>
-        <!--View Controller-->
+        <!--College View Controller-->
         <scene sceneID="Oog-9t-nzL">
             <objects>
-                <viewController id="rcV-Xu-DPM" sceneMemberID="viewController">
+                <viewController id="rcV-Xu-DPM" customClass="collegeViewController" customModule="KWK_FinalProject" customModuleProvider="target" sceneMemberID="viewController">
                     <view key="view" contentMode="scaleToFill" id="TFl-R6-NZi">
                         <rect key="frame" x="0.0" y="0.0" width="390" height="790"/>
                         <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
@@ -365,7 +380,7 @@
                                 <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
                             </imageView>
                             <imageView clipsSubviews="YES" userInteractionEnabled="NO" contentMode="scaleAspectFit" horizontalHuggingPriority="251" verticalHuggingPriority="251" fixedFrame="YES" image="Black_Star.svg" translatesAutoresizingMaskIntoConstraints="NO" id="ErA-vz-5lo">
-                                <rect key="frame" x="248" y="244" width="20" height="23"/>
+                                <rect key="frame" x="248" y="244" width="0.0" height="23"/>
                                 <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
                             </imageView>
                             <imageView clipsSubviews="YES" userInteractionEnabled="NO" contentMode="scaleAspectFit" horizontalHuggingPriority="251" verticalHuggingPriority="251" fixedFrame="YES" image="Black_Star.svg" translatesAutoresizingMaskIntoConstraints="NO" id="Si9-iv-IED">
@@ -411,11 +426,18 @@
                                     <segue destination="T8G-nV-gFG" kind="show" id="qcn-sd-NOG"/>
                                 </connections>
                             </button>
+                            <imageView clipsSubviews="YES" userInteractionEnabled="NO" contentMode="scaleAspectFit" horizontalHuggingPriority="251" verticalHuggingPriority="251" fixedFrame="YES" image="Black_Star.svg" translatesAutoresizingMaskIntoConstraints="NO" id="sDb-p8-tIe">
+                                <rect key="frame" x="248" y="244" width="20" height="23"/>
+                                <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
+                            </imageView>
                         </subviews>
                         <viewLayoutGuide key="safeArea" id="FdF-xs-xmN"/>
                         <color key="backgroundColor" red="0.79607843140000001" green="0.95294117649999999" blue="0.94117647059999998" alpha="1" colorSpace="calibratedRGB"/>
                     </view>
                     <navigationItem key="navigationItem" id="b6I-6F-S2H"/>
+                    <connections>
+                        <outlet property="mentalhealthstar1" destination="sDb-p8-tIe" id="yft-T3-F5Z"/>
+                    </connections>
                 </viewController>
                 <placeholder placeholderIdentifier="IBFirstResponder" id="JRE-eW-KvI" userLabel="First Responder" customClass="UIResponder" sceneMemberID="firstResponder"/>
             </objects>
@@ -2081,7 +2103,7 @@
     </scenes>
     <inferredMetricsTieBreakers>
         <segue reference="uFt-xM-7jS"/>
-        <segue reference="ewl-Y6-BpH"/>
+        <segue reference="Psl-Os-V4O"/>
     </inferredMetricsTieBreakers>
     <resources>
         <image name="Black_Star.svg" width="2142" height="2048"/>

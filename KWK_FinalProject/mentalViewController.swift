@@ -7,9 +7,8 @@
 
 import UIKit
     public var mentalHealthAvg = 0
-    public var mentalHealthRating = 0
 class mentalViewController: UIViewController {
-
+    var mentalHealthRating = 0
     override func viewDidLoad() {
         super.viewDidLoad()
 

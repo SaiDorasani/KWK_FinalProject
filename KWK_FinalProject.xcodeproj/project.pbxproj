@@ -7,6 +7,8 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
+		A82A014C26A9D5E8007D8D2E /* collegeViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = A82A014B26A9D5E8007D8D2E /* collegeViewController.swift */; };
+		A82A014E26A9D782007D8D2E /* notradameViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = A82A014D26A9D781007D8D2E /* notradameViewController.swift */; };
 		A8AD4BE326A9B9700027B71E /* mentalViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = A8AD4BE226A9B9700027B71E /* mentalViewController.swift */; };
 		A8AD4BE526A9BA8D0027B71E /* LGBTQViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = A8AD4BE426A9BA8D0027B71E /* LGBTQViewController.swift */; };
 		A8AD4BE726A9BAAF0027B71E /* IDDViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = A8AD4BE626A9BAAF0027B71E /* IDDViewController.swift */; };
@@ -22,6 +24,8 @@
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
+		A82A014B26A9D5E8007D8D2E /* collegeViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = collegeViewController.swift; sourceTree = "<group>"; };
+		A82A014D26A9D781007D8D2E /* notradameViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = notradameViewController.swift; sourceTree = "<group>"; };
 		A8AD4BE226A9B9700027B71E /* mentalViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = mentalViewController.swift; sourceTree = "<group>"; };
 		A8AD4BE426A9BA8D0027B71E /* LGBTQViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = LGBTQViewController.swift; sourceTree = "<group>"; };
 		A8AD4BE626A9BAAF0027B71E /* IDDViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = IDDViewController.swift; sourceTree = "<group>"; };
@@ -81,6 +85,8 @@
 				A8AD4BE426A9BA8D0027B71E /* LGBTQViewController.swift */,
 				A8AD4BE626A9BAAF0027B71E /* IDDViewController.swift */,
 				A8AD4BE826A9BADA0027B71E /* minoritiesViewController.swift */,
+				A82A014B26A9D5E8007D8D2E /* collegeViewController.swift */,
+				A82A014D26A9D781007D8D2E /* notradameViewController.swift */,
 			);
 			path = KWK_FinalProject;
 			sourceTree = "<group>";
@@ -155,6 +161,7 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				A82A014C26A9D5E8007D8D2E /* collegeViewController.swift in Sources */,
 				A8AD4BE526A9BA8D0027B71E /* LGBTQViewController.swift in Sources */,
 				B14C9D4F26A752B600D0EF98 /* ViewController.swift in Sources */,
 				A8AD4BE726A9BAAF0027B71E /* IDDViewController.swift in Sources */,
@@ -163,6 +170,7 @@
 				B14C9D4B26A752B600D0EF98 /* AppDelegate.swift in Sources */,
 				B14C9D5526A752B600D0EF98 /* KWK_FinalProject.xcdatamodeld in Sources */,
 				B14C9D4D26A752B600D0EF98 /* SceneDelegate.swift in Sources */,
+				A82A014E26A9D782007D8D2E /* notradameViewController.swift in Sources */,
 				A8AD4BE326A9B9700027B71E /* mentalViewController.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
