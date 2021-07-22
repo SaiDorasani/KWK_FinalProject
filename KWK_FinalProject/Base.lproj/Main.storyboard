@@ -273,7 +273,6 @@
                         <outlet property="mentalhealthstar22" destination="7XH-Ix-fAg" id="Vld-LK-0X0"/>
                         <outlet property="mentalhealthstar3" destination="17v-rx-cXC" id="9Jb-lw-1kx"/>
                         <outlet property="mentalhealthstar33" destination="Max-kX-3R8" id="d9Y-cS-PVz"/>
-                        <outlet property="minorities" destination="Xsr-5j-eAx" id="8RJ-Zr-ur9"/>
                         <outlet property="minoritiesstar1" destination="Xsr-5j-eAx" id="chi-VF-ExY"/>
                         <outlet property="minoritiesstar11" destination="chw-IY-fUN" id="K7e-jk-20V"/>
                         <outlet property="minoritiesstar2" destination="nBo-tV-9Ym" id="F5z-77-s3D"/>
@@ -435,9 +434,6 @@
                         <color key="backgroundColor" red="0.79607843140000001" green="0.95294117649999999" blue="0.94117647059999998" alpha="1" colorSpace="calibratedRGB"/>
                     </view>
                     <navigationItem key="navigationItem" id="b6I-6F-S2H"/>
-                    <connections>
-                        <outlet property="mentalhealthstar1" destination="sDb-p8-tIe" id="yft-T3-F5Z"/>
-                    </connections>
                 </viewController>
                 <placeholder placeholderIdentifier="IBFirstResponder" id="JRE-eW-KvI" userLabel="First Responder" customClass="UIResponder" sceneMemberID="firstResponder"/>
             </objects>
