@@ -7,6 +7,10 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
+		A8AD4BE326A9B9700027B71E /* mentalViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = A8AD4BE226A9B9700027B71E /* mentalViewController.swift */; };
+		A8AD4BE526A9BA8D0027B71E /* LGBTQViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = A8AD4BE426A9BA8D0027B71E /* LGBTQViewController.swift */; };
+		A8AD4BE726A9BAAF0027B71E /* IDDViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = A8AD4BE626A9BAAF0027B71E /* IDDViewController.swift */; };
+		A8AD4BE926A9BADA0027B71E /* minoritiesViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = A8AD4BE826A9BADA0027B71E /* minoritiesViewController.swift */; };
 		B14C9D4B26A752B600D0EF98 /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = B14C9D4A26A752B600D0EF98 /* AppDelegate.swift */; };
 		B14C9D4D26A752B600D0EF98 /* SceneDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = B14C9D4C26A752B600D0EF98 /* SceneDelegate.swift */; };
 		B14C9D4F26A752B600D0EF98 /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = B14C9D4E26A752B600D0EF98 /* ViewController.swift */; };
@@ -18,6 +22,10 @@
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
+		A8AD4BE226A9B9700027B71E /* mentalViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = mentalViewController.swift; sourceTree = "<group>"; };
+		A8AD4BE426A9BA8D0027B71E /* LGBTQViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = LGBTQViewController.swift; sourceTree = "<group>"; };
+		A8AD4BE626A9BAAF0027B71E /* IDDViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = IDDViewController.swift; sourceTree = "<group>"; };
+		A8AD4BE826A9BADA0027B71E /* minoritiesViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = minoritiesViewController.swift; sourceTree = "<group>"; };
 		B14C9D4726A752B600D0EF98 /* KWK_FinalProject.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = KWK_FinalProject.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		B14C9D4A26A752B600D0EF98 /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
 		B14C9D4C26A752B600D0EF98 /* SceneDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SceneDelegate.swift; sourceTree = "<group>"; };
@@ -69,6 +77,10 @@
 				B14C9D5B26A752B900D0EF98 /* Info.plist */,
 				B14C9D5326A752B600D0EF98 /* KWK_FinalProject.xcdatamodeld */,
 				FF2E8F7626A9232600A74BF5 /* InputViewController.swift */,
+				A8AD4BE226A9B9700027B71E /* mentalViewController.swift */,
+				A8AD4BE426A9BA8D0027B71E /* LGBTQViewController.swift */,
+				A8AD4BE626A9BAAF0027B71E /* IDDViewController.swift */,
+				A8AD4BE826A9BADA0027B71E /* minoritiesViewController.swift */,
 			);
 			path = KWK_FinalProject;
 			sourceTree = "<group>";
@@ -143,11 +155,15 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				A8AD4BE526A9BA8D0027B71E /* LGBTQViewController.swift in Sources */,
 				B14C9D4F26A752B600D0EF98 /* ViewController.swift in Sources */,
+				A8AD4BE726A9BAAF0027B71E /* IDDViewController.swift in Sources */,
+				A8AD4BE926A9BADA0027B71E /* minoritiesViewController.swift in Sources */,
 				FF2E8F7726A9232700A74BF5 /* InputViewController.swift in Sources */,
 				B14C9D4B26A752B600D0EF98 /* AppDelegate.swift in Sources */,
 				B14C9D5526A752B600D0EF98 /* KWK_FinalProject.xcdatamodeld in Sources */,
 				B14C9D4D26A752B600D0EF98 /* SceneDelegate.swift in Sources */,
+				A8AD4BE326A9B9700027B71E /* mentalViewController.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};

@@ -1685,10 +1685,10 @@
             </objects>
             <point key="canvasLocation" x="892.30769230769226" y="59.004739336492889"/>
         </scene>
-        <!--View Controller-->
+        <!--Mental View Controller-->
         <scene sceneID="w7N-Wg-ZUa">
             <objects>
-                <viewController id="z02-lW-Na7" sceneMemberID="viewController">
+                <viewController id="z02-lW-Na7" customClass="mentalViewController" customModule="KWK_FinalProject" customModuleProvider="target" sceneMemberID="viewController">
                     <view key="view" contentMode="scaleToFill" id="Msy-9q-8nI">
                         <rect key="frame" x="0.0" y="0.0" width="390" height="790"/>
                         <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
@@ -1887,7 +1887,7 @@
         <!--View Controller-->
         <scene sceneID="9v0-E0-2zy">
             <objects>
-                <viewController id="zjV-9P-Eun" sceneMemberID="viewController">
+                <viewController id="zjV-9P-Eun" customClass="LGBTQViewController" customModule="KWK_FinalProject" customModuleProvider="target" sceneMemberID="viewController">
                     <view key="view" contentMode="scaleToFill" id="N1U-Mx-i3f">
                         <rect key="frame" x="0.0" y="0.0" width="390" height="790"/>
                         <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
@@ -2032,7 +2032,7 @@
         <!--View Controller-->
         <scene sceneID="LSF-Xl-j82">
             <objects>
-                <viewController id="7jr-ND-cKY" sceneMemberID="viewController">
+                <viewController id="7jr-ND-cKY" customClass="IDDViewController" customModule="KWK_FinalProject" customModuleProvider="target" sceneMemberID="viewController">
                     <view key="view" contentMode="scaleToFill" id="1Mb-Sw-RaT">
                         <rect key="frame" x="0.0" y="0.0" width="390" height="790"/>
                         <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
@@ -2304,7 +2304,7 @@
         </scene>
     </scenes>
     <inferredMetricsTieBreakers>
-        <segue reference="uFt-xM-7jS"/>
+        <segue reference="dJL-6I-Mwu"/>
         <segue reference="ewl-Y6-BpH"/>
     </inferredMetricsTieBreakers>
     <resources>
