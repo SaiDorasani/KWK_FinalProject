@@ -10,7 +10,7 @@ import UIKit
 class CollageNameViewController: UIViewController {
 
     @IBOutlet weak var picker: UIPickerView!
-    let data = ["Notre Dame Collage", "University of Maryland", "Purdue University", "MIT", "Columbia University"]
+    let data = ["Notre Dame College", "University of Maryland", "Purdue University", "MIT", "Columbia University"]
     override func viewDidLoad() {
         super.viewDidLoad()
         picker.dataSource = self
